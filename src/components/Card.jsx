@@ -1,5 +1,12 @@
 // src/components/PhotoCardCarousel.jsx
-import { one , two , three , four , five , six , seven , eight } from "../assets/asset.js";
+import one from "../assets/one.jpg";
+import two from "../assets/two.jpg";
+import three from "../assets/three.jpg";
+import four from "../assets/four.jpg";
+import five from "../assets/five.jpg";
+import six from "../assets/six.jpg";
+import seven from "../assets/seven.jpg";
+import eight from "../assets/eight.jpg";
 
 export default function PhotoCardCarousel() {
   const photos = [

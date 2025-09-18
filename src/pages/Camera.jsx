@@ -1,5 +1,8 @@
 import { useState } from "react";
-import { img1, img4, img2, img3 } from "../assets/camera/export.js";
+import img1 from "../assets/camera/img1.JPG";
+import img2 from "../assets/camera/img2.JPG";
+import img3 from "../assets/camera/img3.JPG";
+// import img4 from "../assets/camera/img4.JPG";
 
 export default function Camera() {
   const [selected, setSelected] = useState(null);

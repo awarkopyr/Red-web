@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+@import "tailwindcss";
+html, body, #root {
+  margin: 2px, 2px;
+  padding: 2px , 2px;
+  width: 100%;
+  height: 100%;
+  max-width: 100% !important;
+  overflow-x: hidden;
+  background: #000;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* move half since we duplicated cards */
+  }
+}
+
+.animate-slide {
+  animation: slide linear infinite;
+}

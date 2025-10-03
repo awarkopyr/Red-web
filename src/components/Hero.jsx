@@ -56,9 +56,6 @@ export default function Hero() {
 
       {/* Centered Text */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <h1 className="text-3xl sm:text-6xl font-bold text-white drop-shadow-lg">
-          ANGEL MOVIE WORLD (AMW)
-        </h1>
       </div>
 
       {/* Dots */}

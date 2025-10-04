@@ -4,6 +4,7 @@ import PhotoCardCarousel from '../components/Card.jsx'
 import Footer from '../components/Footer.jsx'
 import Portfolio from '../components/Pro.jsx'
 import Title from '../components/Title.jsx'
+import Project from '../components/Project.jsx'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Hero />,
             <Title />
             <Portfolio />,
+            <Project/>
             <PhotoCardCarousel />
             <Footer />
         </div>

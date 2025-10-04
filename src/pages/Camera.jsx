@@ -5,6 +5,9 @@ import img2 from "../assets/camera/img2.JPG";
 import img3 from "../assets/camera/img3.JPG";
 import lens from "../assets/lens.JPG"
 import lensset1 from "../assets/leans/lensset1.jpeg"
+import camera3 from "../assets/camera3.jpeg"
+import lens2 from "../assets/lens2.jpeg"
+import lens3 from "../assets/lens3.jpeg"
 // import img4 from "../assets/camera/img4.JPG";
 
 export default function Camera() {
@@ -14,30 +17,34 @@ export default function Camera() {
   const products = {
     camera: [
       {
-        name: "V-RAPTOR XE RF",
+        name: "RED SCARLET-W DRAGON 5K",
         img: img2,
       },
       {
-        name: "V-RAPTOR XE RF",
+        name: "V-RAPTOR XE RF 8K VV",
         img: img3,
+      },
+      {
+        name: "ARRI AMIRA 4K",
+        img: camera3,
       },
     ],
     lens: [
       {
         name: "ZIESS Nano Prime 6-Lens Set",
         img: lensset1,
-        desc: "ZIESS Nano Prime 6-Lens Set.",
+        // desc: "ZIESS Nano Prime 6-Lens Set.",
       },
-      // {
-      //   name: "Sony 24-70mm f/2.8",
-      //   img: "/assets/lens2.jpg",
-      //   desc: "Perfect all-around zoom lens.",
-      // },
-      // {
-      //   name: "Nikon Z 85mm f/1.8",
-      //   img: "/assets/lens3.jpg",
-      //   desc: "Ideal lens for portrait photography.",
-      // },
+      {
+        name: "ZEISS CINEMA ZOOM 3-LENS SET",
+        img: lens2,
+        // desc: "ZEISS CINEMA ZOOM 3-LENS SET.",
+      },
+      {
+        name: "ZEISS Compact Prime CP.3  6-Lens Set",
+        img: lens3,
+        // desc: "ZEISS Compact Prime CP.3  6-Lens Set.",
+      },
     ],
   };
 

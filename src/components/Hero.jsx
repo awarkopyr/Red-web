@@ -3,13 +3,11 @@ import { useState, useEffect } from "react";
 export default function Hero() {
   // desktop/tablet images
   const desktopImages = [
-    "https://images.red.com/homepage/slide-content/shawn-heinrich.jpg",
     "https://images.red.com/homepage/slide-content/zero-percent-financing.jpg",
   ];
 
   // phone images (different set)
   const mobileImages = [
-    "https://images.red.com/homepage/slide-content/shawn-heinrich-mob.jpg",
     "https://images.red.com/homepage/slide-content/zero-percent-financing-mob.jpg",
   ];
 

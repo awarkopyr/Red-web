@@ -9,15 +9,18 @@ html, body, #root {
   overflow-x: hidden;
   background: #000;
 }
-@keyframes slide {
+@keyframes scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); /* move half since we duplicated cards */
+    transform: translateX(-50%);
   }
 }
 
-.animate-slide {
-  animation: slide linear infinite;
+.animate-scroll {
+  animation: scroll linear infinite;
+  will-change: transform;
 }
+
+

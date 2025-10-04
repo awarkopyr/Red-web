@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import owner from "../assets/owner.png";
 export default function Portfolio() {
   return (
@@ -22,9 +23,12 @@ export default function Portfolio() {
           </p>
 
           <div className="flex gap-4">
-            <button className="px-5 py-2 rounded-2xl bg-black text-white hover:bg-gray-800" href="contact">
-              Contact Me
-            </button>
+            <Link to="/contact">
+              <button className="px-5 py-2 rounded-2xl bg-black text-white hover:bg-gray-800" href="contact">
+                Contact Me
+              </button>
+            </Link>
+
             <button className="px-5 py-2 rounded-2xl border border-black hover:bg-gray-100">
               Download CV
             </button>

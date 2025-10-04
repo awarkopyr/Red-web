@@ -25,23 +25,13 @@ export default function Contact() {
 
           <div className="space-y-4">
             <p className="text-gray-800">
-              📍 <span className="font-medium">Address:</span> Your Address Here
+              📧 <span className="font-medium">Email:</span> contactus@angelmovieworld.com
             </p>
             <p className="text-gray-800">
-              📧 <span className="font-medium">Email:</span> your@email.com
-            </p>
-            <p className="text-gray-800">
-              📞 <span className="font-medium">Phone:</span> +123 456 7890
+              📞 <span className="font-medium">Phone:</span> +8801716428243
             </p>
           </div>
-
-          {/* Social Links */}
-          <div className="flex gap-4">
-            <a href="#" className="text-gray-600 hover:text-black text-2xl">🌐</a>
-            <a href="#" className="text-gray-600 hover:text-black text-2xl">🐦</a>
-            <a href="#" className="text-gray-600 hover:text-black text-2xl">📸</a>
-            <a href="#" className="text-gray-600 hover:text-black text-2xl">💼</a>
-          </div>
+        
         </div>
 
         {/* Right side - Contact Form */}

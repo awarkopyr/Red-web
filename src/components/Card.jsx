@@ -17,7 +17,7 @@ export default function PhotoCardCarousel() {
     <div className="w-screen overflow-hidden bg-gray-900 py-6">
       <div
         className="flex animate-slide"
-        style={{ animationDuration: `${photos.length * 3}s` }}
+        style={{ animationDuration: `${photos.length * 2}s` }}
       >
         {/* duplicate for infinite scroll */}
         {[...photos, ...photos].map((src, index) => (

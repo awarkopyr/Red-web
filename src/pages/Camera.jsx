@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import img1 from "../assets/camera/img1.JPG";
 import img2 from "../assets/camera/img2.JPG";
 import img3 from "../assets/camera/img3.JPG";
+import lens from "../assets/lens.JPG"
+import lensset1 from "../assets/leans/lensset1.jpeg"
 // import img4 from "../assets/camera/img4.JPG";
 
 export default function Camera() {
@@ -21,20 +24,20 @@ export default function Camera() {
     ],
     lens: [
       {
-        name: "Canon RF 50mm f/1.2",
-        img: "/assets/lens1.jpg",
-        desc: "Prime lens for stunning portraits.",
+        name: "ZIESS Nano Prime 6-Lens Set",
+        img: lensset1,
+        desc: "ZIESS Nano Prime 6-Lens Set.",
       },
-      {
-        name: "Sony 24-70mm f/2.8",
-        img: "/assets/lens2.jpg",
-        desc: "Perfect all-around zoom lens.",
-      },
-      {
-        name: "Nikon Z 85mm f/1.8",
-        img: "/assets/lens3.jpg",
-        desc: "Ideal lens for portrait photography.",
-      },
+      // {
+      //   name: "Sony 24-70mm f/2.8",
+      //   img: "/assets/lens2.jpg",
+      //   desc: "Perfect all-around zoom lens.",
+      // },
+      // {
+      //   name: "Nikon Z 85mm f/1.8",
+      //   img: "/assets/lens3.jpg",
+      //   desc: "Ideal lens for portrait photography.",
+      // },
     ],
   };
 
@@ -61,7 +64,7 @@ export default function Camera() {
               onClick={() => setSelected("lens")}
             >
               <img
-                src="/assets/lens.jpg"
+                src={lens}
                 alt="Lens"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -93,9 +96,11 @@ export default function Camera() {
                   />
                   <h3 className="text-xl font-semibold">{product.name}</h3>
                   <p className="text-gray-600 mt-2">{product.desc}</p>
-                  <button className="mt-4 px-6 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition">
-                    Contact Us for More Information
-                  </button>
+                  <Link to="/contact">
+                    <button className="mt-4 px-6 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition">
+                      Contact Us for More Information
+                    </button>
+                  </Link>
                 </div>
               ))}
             </div>
